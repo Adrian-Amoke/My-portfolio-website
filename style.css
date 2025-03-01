@@ -4,7 +4,7 @@ header {
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 3px;
-    margin: 0 0 10px 0;
+    margin: 0 40px 10px 40px;
 }
 #Aboutme {
     display: flex;
@@ -14,10 +14,12 @@ header {
     border: 2px solid black;
     align-items: center;
     text-align: center;
+    margin: 10px 40px 10px 40px;
 }
 body {
     background-color: beige;
     padding: 0;
+    font-size: 20px;
 }
 #Skills {
     display:flex;
@@ -26,7 +28,7 @@ body {
     background-color: rgb(190, 175, 175);
     border: 2px solid black;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 40px 10px 40px;
 }
 #Projects {
     display:flex;
@@ -35,7 +37,7 @@ body {
     background-color: rgb(190, 175, 175);
     border: 2px solid black;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 40px 10px 40px;
 }
 #Contact {
     display:flex;
@@ -44,5 +46,11 @@ body {
     background-color: rgb(190, 175, 175);
     border: 2px solid black;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 40px 10px 40px;
+}
+button {
+    background-color: rgb(163, 140, 140);
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
